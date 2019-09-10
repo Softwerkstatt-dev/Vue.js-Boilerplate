@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <HelloWorld msg="Welcome to Your Dashboard" />
+    <HelloWorld msg="Welcome to Vue.js Typescript Boilerplate" />
   </div>
 </template>
 

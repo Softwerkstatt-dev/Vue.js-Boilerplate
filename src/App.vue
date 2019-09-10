@@ -12,7 +12,7 @@
 <script lang="ts">
 import { Vue } from 'vue-property-decorator';
 import Component from 'vue-class-component';
-import Navigation from '@/views/Navigation.vue';
+import Navigation from '@/components/layout/Navigation.vue';
 
 @Component({
   components: {
@@ -41,16 +41,4 @@ export default class Counter extends Vue {
     }
   }
 }
-// #nav {
-//   padding: 30px;
-  
-//   a {
-//     font-weight: bold;
-//     color: #2c3e50;
-
-//     &.router-link-exact-active {
-//       color: #42b983;
-//     }
-//   }
-// }
 </style>

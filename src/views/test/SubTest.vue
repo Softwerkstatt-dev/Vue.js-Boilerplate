@@ -1,5 +1,5 @@
 <template>
-  <div class="testTable">
+  <div id="subTest">
     <h1>{{ text }}</h1>
     <button @click="onClick()" class="btn btn-secondary">Increase Counter +{{countIncrement}} from Child</button>
   </div>

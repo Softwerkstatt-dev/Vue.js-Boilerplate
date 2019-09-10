@@ -9,6 +9,8 @@
         <ul>
           <li>
             <router-link to="/test">Test</router-link>
+            <router-link to="/user">User</router-link>
+            <router-link to="/customer">Customer</router-link>
           </li>
         </ul>
       </li>
