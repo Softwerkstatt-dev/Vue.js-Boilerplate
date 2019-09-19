@@ -4,7 +4,7 @@
     <div><b>Computed Property from Store:</b> {{computedCount}}</div>
     <div><b>Data:</b> {{fullNames}}</div>
     <a href="#" @click="onClickButton()" class="btn btn-secondary">Increase Counter</a>
-    <SubTest text="Child Component" @onIncreaseCounter="onClickFromChild" />
+    <SubTest text="Child Component" @on-increase-counter="onClickFromChild" />
   </div>
 </template>
 
