@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <HelloWorld msg="Welcome to Vue.js Typescript Boilerplate" />
+    <HelloWorld v-bind:msg="text" />
   </div>
 </template>
 
@@ -14,5 +14,10 @@ import HelloWorld from '@/components/HelloWorld.vue';
   },
 })
 export default class Home extends Vue {
+  public text: string = '';
+
+  public created(): void {
+    this.text = 'Welcome to Vue.js Typescript Boilerplate';
+  }
 }
 </script>
