@@ -1,6 +1,10 @@
 # Vue.js Typescript Boilerplate
 This project should be a good kickstart for Vue.js projects using TypeScript.
 
+## Links 
+  * [Developed by Softwerkstatt](https://softwerkstatt.de)
+  * [Opencollective Profile](https://opencollective.com/softwerkstatt)
+
 ## Features
 - [x] TypeScript
 - [x] SCSS
